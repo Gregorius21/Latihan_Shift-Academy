@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Form</title>
+</head>
+<body>
+    <h4> Formulir Organisasi</h4>
+    <form>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" placeholder="username">
+        </div>
+        <br>
+        <div>
+            <label for="month">Month</label>
+            <input type="month" id="month" name="month" placeholder="januari">
+        </div>
+        <br>
+        <div>
+            <label for="jenis kelamin">Jenis Kelamin</label>
+            <div>
+            <input type="radio" name="gender"> Laki-laki
+            <input type="radio" name="gender"> Perempuan
+        </div>
+        <br>
+        <div>
+            <label for="fasilitas">Fasilitas</label>
+            <div>
+            <input type="checkbox" name='fasilitas'> Laptop
+            <input type="checkbox" name='fasilitas'> HP
+            <input type="checkbox" name='fasilitas'> Kamera
+        </div>
+        <br>
+        <div>
+            <label for="provinsi">Pilih Provinsi</label>
+            <select name="provinsi" id="provinsi">
+                <option value="jawabarat">Jawa Barat</option>
+                <option value="jawabarat">Jawa Tengah</option>
+                <option value="jawabarat">Jawa Timur</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="title">Title</label>
+            <input name="title" id="title" placeholder="judul">
+        </div>
+        <br>
+        <div>
+            <label for="description">Description</label>
+            <textarea name="description" id="description" cols="30" rows"100"></textarea>
+        </div>
+        <br>
+        <div>
+            <button type="button">type button</button>
+            <button type="submit">type submit</button>
+        </div>
+    </form>
+</body>
+</html>
